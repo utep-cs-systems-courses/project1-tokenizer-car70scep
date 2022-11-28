@@ -1,0 +1,9 @@
+#include "tokenizer.h"
+
+
+char *word_start(char *str1){
+  if(*str1 == '\0'){
+    return 0;
+  }
+
+  while(
